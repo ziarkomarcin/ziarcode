@@ -42,8 +42,8 @@ nav a{
 }
 
 .logo img {
-	margin-left: 10rem;
-	width: 15rem;
+	margin-left: 5rem;
+	width: 10rem;
 }
 
 main{
@@ -52,25 +52,25 @@ main{
 	justify-content: center;
 	align-items: center;
 	background-color: transparent;
-	padding-left: 10rem;
-	padding-right: 10rem;
+	padding-left: 5rem;
+	padding-right: 5rem;
 }
 
 main p{
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 
 .git{
 	margin-top: 5rem;
 	margin-bottom: 5rem;
 	background-color: blue;
-	padding: 3rem;
+	padding: 1.5rem;
 	background-color: #b3b3cc;
 	border-radius: .75rem;
 }
 
 .git img{
-	width: 15rem;
+	width: 10rem;
 }
 
 .git td p{
@@ -86,7 +86,7 @@ main p{
 }
 
 .animation p {
-	font-size: 3.5rem;
+	font-size: 2.5rem;
 	color: #727272;
 	overflow: hidden;
 	border-right: .15em solid #ff6666;
@@ -108,7 +108,7 @@ main p{
 }
 
 .contacts-div{
-	padding: 10rem;
+	padding: 5rem;
 	background-color: transparent;
 	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
