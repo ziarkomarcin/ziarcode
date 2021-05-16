@@ -108,7 +108,6 @@ main p{
 }
 
 .contacts-div{
-
 	padding: 10rem;
 	background-color: transparent;
 	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -123,9 +122,28 @@ main p{
 	color: #727272;
 }
 
+.about-div{
+	margin-top: 2rem;
+}
+
+.about{
+	padding-left: 3rem;
+	padding-right: 3rem;
+	text-align: justify;
+}
+
 .git a{
 	text-decoration: none;
 	color: #0a0a0f;
+}
+
+.gith1{
+	font-size: 1.5rem;
+	color: #ff6666;
+}
+
+.git-projects{
+	text-align: center;
 }
 
 .contacts a:hover{
@@ -136,15 +154,17 @@ main p{
 
 .me{
 	margin-top: 3rem;
+	margin-bottom: 3rem;
 }
 
 .me table tr td{
+	flex-wrap: wrap;
 	box-sizing: border-box;
 	background-color: transparent;
 	border: none;
 }
 
-.photo{
+.me img{
 	width: 100%;
 }
 
