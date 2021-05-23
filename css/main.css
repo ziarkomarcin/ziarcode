@@ -64,20 +64,14 @@ main p{
 .git{
 	margin-top: 1.5rem;
 	margin-bottom: 1.5rem;
-	background-color: blue;
-	padding: 1.5rem;
+	padding: 1rem;
 	background-color: #b3b3cc;
 	border-radius: .75rem;
 }
 
-.git img{
-	width: 10rem;
-}
-
-.git td p{
+.git p{
 	font-size: 1.5rem;
-	margin-left: 3rem;
-	text-align: center;
+	text-align: justify;
 }
 
 .author{
@@ -232,4 +226,9 @@ main p{
 	.card{
 		width: auto;
 	}
+
+	.logo img {
+	margin-left: 1rem;
+	width: 10rem;
+}
 }
