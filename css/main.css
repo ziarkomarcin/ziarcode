@@ -16,6 +16,7 @@ header, footer{
 
 footer{
 	justify-content: center;
+	font-size: 0.9rem;
 	padding-top: 0;
 }
 
@@ -42,7 +43,7 @@ nav a{
 }
 
 .logo img {
-	margin-left: 5rem;
+	margin-left: 2rem;
 	width: 10rem;
 }
 
@@ -52,17 +53,17 @@ main{
 	justify-content: center;
 	align-items: center;
 	background-color: transparent;
-	padding-left: 5rem;
-	padding-right: 5rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
 }
 
 main p{
-	font-size: 1.5rem;
+	font-size: 1.1rem;
 }
 
 .git{
-	margin-top: 5rem;
-	margin-bottom: 5rem;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
 	background-color: blue;
 	padding: 1.5rem;
 	background-color: #b3b3cc;
@@ -86,7 +87,7 @@ main p{
 }
 
 .animation p {
-	font-size: 2.5rem;
+	font-size: 2rem;
 	color: #727272;
 	overflow: hidden;
 	border-right: .15em solid #ff6666;
@@ -127,8 +128,6 @@ main p{
 }
 
 .about{
-	padding-left: 3rem;
-	padding-right: 3rem;
 	text-align: justify;
 }
 
@@ -162,6 +161,13 @@ main p{
 	box-sizing: border-box;
 	background-color: transparent;
 	border: none;
+}
+
+@media only screen and (max-width: 1000px){
+	table tr td{
+		display: flex;
+		flex-wrap: wrap;
+	}
 }
 
 .me img{
