@@ -168,6 +168,11 @@ main p{
 		display: flex;
 		flex-wrap: wrap;
 	}
+
+	main{
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
 }
 
 .me img{
