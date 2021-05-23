@@ -163,18 +163,6 @@ main p{
 	border: none;
 }
 
-@media only screen and (max-width: 1000px){
-	table tr td{
-		display: flex;
-		flex-wrap: wrap;
-	}
-
-	main{
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
-}
-
 .me img{
 	width: 100%;
 }
@@ -202,4 +190,46 @@ main p{
 .important{
 	font-size: 2rem;
 	color: #ffffff;
+}
+
+.inform{
+	justify-content: center;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.card{
+	padding: 1rem;
+	background-color: transparent;
+	text-align: center;
+	width: 40%;
+	justify-content: space-around;
+}
+
+.card img{
+	width: 100%;
+}
+
+@media only screen and (max-width: 1000px){
+	table tr td{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	main{
+	padding-left: 1rem;
+	padding-right: 1rem;
+	}
+
+	.inform{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.card{
+		width: auto;
+	}
 }
